@@ -15,7 +15,8 @@ function runEventListeners() {
 
 function clearPage(e){
     searchInput.value="";
-    Array.from(imageListWrapper.children).forEach((child)=>child.remove());
+    //Array.from(imageListWrapper.children).forEach((child)=>child.remove());
+    imageListWrapper.innerHTML="";
 }
 
 
